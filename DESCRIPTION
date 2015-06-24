@@ -1,0 +1,13 @@
+Package: grader
+Title: Numerical Derivatives
+Version: 0.1.0
+Description: Calculates numerical derivatives.  This code is heavily
+  inspired by numDeriv, but optimised for the situation where
+  functions can accept vector valued arguments, support for rescaling
+  to compute derivatives on a log scale, and eventually things like
+  non-centred differences for functions that have discontinuities.
+Depends: R (>= 3.1.2)
+License: GPL-2
+Author: Rich FitzJohn
+Maintainer: Rich FitzJohn <rich.fitzjohn@gmail.com>
+Suggests: testthat, numDeriv, mvtnorm
